@@ -1,3 +1,17 @@
+#pragma once
+#include <Windows.h>
+#include <string>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <array>
+#include <cstdarg>
+#include <dbghelp.h>
+#include <tlhelp32.h>
+#include <Psapi.h>
+#include <stack>
+#pragma comment(lib, "dbghelp.lib")
+
 	class c_function {
 	public:
 		void* m_nFunc;
@@ -54,3 +68,5 @@
 		}
 	};
 };
+
+
